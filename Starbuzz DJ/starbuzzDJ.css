@@ -1,11 +1,26 @@
 body {
     font-family: 'Roboto';
+    box-sizing: border-box;
+    width: 500px;
+    height: 250px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+div {
+    width: 500px;
+    height: 250px;
+    /* background-color: khaki; */
+    padding: 10px;
+    border-style: outset;
 }
 h2 {
-    font-size: 2em;
-    color: chartreuse;
+    font-size: 1.5em;
+    color: rgb(17, 150, 128);
 }
 span#melodie {
     font-size: 1em;
-    font-weight: lighter;
+    font-style: italic;
+}
+span.artist {
+    font-weight: bold;
 }
